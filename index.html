@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="//api.bitrix24.com/api/v1/"></script>
+  </head>
+  <body>
+    <h1>Teste Bitrix</h1>
+
+    <script>
+      BX24.init(() => {
+        document.body.insertAdjacentHTML(
+          "beforeend",
+          "<p>BX24 inicializado com sucesso</p>"
+        );
+      });
+    </script>
+  </body>
+</html>
